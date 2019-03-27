@@ -1,0 +1,19 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+* {
+     margin: 0;
+     padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: $bg-grey;
+}

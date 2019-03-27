@@ -1,0 +1,23 @@
+// Widget header
+.widget{
+    background-color: $color-grey-light;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.widget-header{
+    background-color: $color-grey;
+    color: $primary-light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.widget-message{
+    text-align:center;
+    color: $primary-light;
+    padding: 3.2rem;
+    border-bottom: 1px solid lighten($color-grey-light, 10%);
+}

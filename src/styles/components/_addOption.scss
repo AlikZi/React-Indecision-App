@@ -1,0 +1,35 @@
+.add-option-error {
+    color: $primary-light;
+    font-style: italic;
+    padding: 1.6rem;
+    padding-bottom: 0;
+}
+
+.add-option-form {
+    display: flex;
+    padding: 1.6rem;
+
+    @media only screen and (max-width: $mobile-breakpoint){
+        flex-direction: column;
+
+        & > * {
+            width: 100%;
+
+            &:not(:last-child){
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+    &__input{
+        flex-grow: 1;
+        margin-right: 1rem;
+        background-color: $bg-grey;
+        border: none;
+        padding: 1rem;
+        border-bottom: 3px solid darken($bg-grey, 10%);
+        border-radius: 3px;
+        color: $primary-light;
+        outline: none;
+    }
+}
